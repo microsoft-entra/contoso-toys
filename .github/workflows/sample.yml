@@ -17,6 +17,6 @@ jobs:
   
       - name: 'Run az commands'
         run: |
-          az storage blob list --account-name contosoplay --container-name reports --output table
           az account show
           az group list
+          az storage blob list --account-name contosoplay --container-name reports --output table
